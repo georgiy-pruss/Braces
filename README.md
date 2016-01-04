@@ -30,3 +30,5 @@ OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 * f g h x don't require () either
 * interpreted strings: "x=#{x}, y=#{y}, x+y=#{x+y}."
 * !T -- new(T), T!n -- make(T,n)
+* 1 2 3 4 5 -- new([]int){1,2,3,4,5}
+* n$e[...] -- reshape, new array

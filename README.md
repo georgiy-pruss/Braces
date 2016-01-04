@@ -16,11 +16,12 @@ OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 * _ret_ for return
 * _while_ for for condition
 * _loop_ for endless loop
-* for i ...n = for i:=0; i<n; i++
+* for i ...n = for i:=0; i<n; i++ (or k...n -- ...:=k...<n...)
+* for i n... = for i:=n; i>0; i--
 * ....: + indent as blocks (also for const,var,import,struct,etc)
 * import xxx,yyy -- w/o ""
-* (...)->... -- function type
-* [...]->... -- map type: map[string]->int ==> [S]->I
+* `(...)->...` -- function type
+* `[...]->...` -- map type: `map[string]->int` ==> `[S]->I`
 * I U B R S X for int uint byte rune string interface
 * binops ~x and unops ($ len, | abs, / floor, % frac, ^ upper)
 * $x -- len(x)
@@ -28,3 +29,4 @@ OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 * f args,.... 'NL' don't require ()
 * f g h x don't require () either
 * interpreted strings: "x=#{x}, y=#{y}, x+y=#{x+y}."
+* !T -- new(T), T!n -- make(T,n)

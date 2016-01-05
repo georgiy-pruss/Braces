@@ -37,3 +37,4 @@ OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 * `!`T -- new(T), T`!`n -- make(T,n)
 * `1 2 3 4 5` -- new([]int){1,2,3,4,5}
 * n`$`values -- reshape, new array
+* break|continue|return [...] `if` condition

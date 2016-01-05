@@ -22,8 +22,10 @@ OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 * import xxx,yyy -- w/o ""
 * `(...)->...` -- function type
 * `[...]->...` -- map type: `map[string]->int` ==> `[S]->I`
-* I U B R S X for int uint byte rune string interface
-* binops ~x and unops ($ len, | abs, / floor, % frac, ^ upper)
+* I U B R S X E for int uint byte rune string interface error
+* if !err and if err (maybe ?err)
+* binops ~⊗ and unops ($ len, | abs, / floor, % frac, ^ upper)
+* condition x ? y : z (or x ? y ! z)
 * $x -- len(x)
 * x[$-y]
 * f args,.... 'NL' don't require ()

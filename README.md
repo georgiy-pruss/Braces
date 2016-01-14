@@ -9,7 +9,7 @@ OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 * Integers with radix 2 to 36 and more: `2#1000_0111 8#777 36#xyzzy 1000#11`
 * Floats with pi: `2p1`, inf nan: `1I` `-1I` `1N`
 * true `1#` false `0#`
-* Date/time as `2015.12.31_15:30:45`
+* Date/time as `2015.12.31_15:30:45[tz]` tz=(w|e)(H[:MM]|H.H|MMM)
 * `#` comment
 * `#< inline comment >` `#{ also }` `#( too )` `#[ as well ]`
 * hex strings `#"1a 2b 34 56 8978 abff"`

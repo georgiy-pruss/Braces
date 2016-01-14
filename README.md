@@ -6,7 +6,7 @@ OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 
 * Numbers with underscores: `1_000_000`
 * Hexadecimal literals: `#FFFF`
-* Integers with radix 2 to 36: `2#1000_0111` `8#777` `36#xyzzy`
+* Integers with radix 2 to 36 and more: `2#1000_0111 8#777 36#xyzzy 1000#11`
 * Floats with pi: `2p1`, inf nan: `1I` `-1I` `1N`
 * true `1#` false `0#`
 * Date/time as `2015.12.31_15:30:45`

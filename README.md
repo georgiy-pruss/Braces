@@ -14,8 +14,8 @@ OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 * `#< inline comment >` `#{ also }` `#( too )` `#[ as well ]`
 * hex strings `#"1a 2b 34 56 8978 abff"`
 * macros `#def X xxxx; #def X(Y) xxxYxxx`
-* `ret` for return
-* `while` for for condition
+* `ret` for "return"
+* `while` for "for condition"
 * `loop` for endless loop
 * `for i ...n` = for i:=0; i<n; i++ (or `k...n` for ...:=k...<n...)
 * `for i n...` = for i:=n; i>0; i--

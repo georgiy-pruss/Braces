@@ -2,7 +2,7 @@
 
 Or rather getting rid of them.
 
-OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
+OK, here's future/potential .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 
 * Numbers with underscores: `1_000_000`
 * Hexadecimal literals: `#FFFF`

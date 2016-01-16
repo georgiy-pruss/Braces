@@ -13,7 +13,7 @@ OK, here's .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go) features:
 * `#` comment
 * `#< inline comment >` `#{ also }` `#( too )` `#[ as well ]`
 * hex strings `#"1a 2b 34 56 8978 abff"`
-* macros `#def X xxxx; #def X(Y) xxxYxxx`
+* macros `#def X xxxx; #def X(Y) xxxYxxx` or other compile-time generation
 * `ret` for "return"
 * `while` for "for condition"
 * `loop` for endless loop

@@ -13,6 +13,7 @@ OK, here's future/potential .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go)
 * `#` comment
 * `#< inline comment >` `#{ also }` `#( too )` `#[ as well ]`
 * hex strings `#"1a 2b 34 56 8978 abff"`
+* multi-line strings with `#|` etc
 * macros `#def X xxxx; #def X(Y) xxxYxxx` or other compile-time generation
 * `ret` for "return"
 * `while` for "for condition"

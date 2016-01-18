@@ -13,7 +13,6 @@ OK, here's future/potential .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go)
 * true `1#` false `0#`
 * Date/time as `2015.12.31_15:30:45[tz]` tz=(w|e)(H[:MM]|H.H|MMM)  
 * `ret` for "return"
-
 * `#` comment
 * `#< inline comment >` `#{ also }` `#( too )` `#[ as well ]`
 * hex strings `#"1a 2b 34 56 8978 abff"`
@@ -25,7 +24,6 @@ OK, here's future/potential .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go)
 ## Syntax, Semantics, etc
 
 * ...`:` + indent as blocks (also for const,var,import,struct,etc)
-
 * `while` for "for condition"
 * `loop` for endless loop
 * `for i ...n` = for i:=0; i<n; i++ (or `k...n` for ...:=k...<n...)

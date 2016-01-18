@@ -9,11 +9,11 @@ OK, here's future/potential .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go)
 * Numbers with underscores: `1_000_000`
 * Hexadecimal literals: `#FFFF`
 * Integers with radix 2 to 36 and more: `2#1000_0111 8#777 36#xyzzy 1000#11`
-* Floats with pi: `2p1`, inf nan: `1I` `-1I` `1N`
+* Floats with pi: `2p1`, Inf and NaN: `1I` `-1I` `1N`
 * true `1#` false `0#`
 * Date/time as `2015.12.31_15:30:45[tz]` tz=(w|e)(H[:MM]|H.H|MMM)  
 * `ret` for "return"
-* `#` comment
+* `#` eol-comment
 * `#< inline comment >` `#{ also }` `#( too )` `#[ as well ]`
 * hex strings `#"1a 2b 34 56 8978 abff"`
 * split strings `"abc" 13 10 "def" " " "ghi"`
@@ -40,7 +40,7 @@ OK, here's future/potential .pgo (Pretty Go, Perfect Go, Proper Go, Pythonic Go)
 * `$`x -- len(x)
 * condition x `?` y `:` z (or x `?` y `!` z)
 * x`[$-y]` for indexing relative to the end
-* `f args,.... _NL_` don't require ()
+* `f args,.... <eol>` don't require ()
 * `f g h x` don't require () either
 * `1 2 3 4 5` -- new([]int){1,2,3,4,5}
 * `!`T -- new(T), T`!`n -- make(T,n)
